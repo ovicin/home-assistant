@@ -33,7 +33,17 @@ If you run into issues while using Home Assistant or during development of a com
 
 ## Installation instructions / Quick-start guide
 
-Running Home Assistant requires that python 3.4 and the package requests are installed. Run the following code to install and start Home Assistant:
+Running Home Assistant requires that python 3.4 and the package requests are installed. 
+```
+wget https://www.python.org/ftp/python/3.4.1/Python-3.4.1.tar.xz
+tar -Jxf Python-3.4.1.tar.xz
+cd Python-3.4.1
+./configure --prefix=/opt/python3.4.1
+make -j 4
+sudo make install
+```
+
+Run the following code to install and start Home Assistant:
 
 ```python
 git clone --recursive https://github.com/balloob/home-assistant.git
