@@ -34,6 +34,8 @@ If you run into issues while using Home Assistant or during development of a com
 ## Installation instructions / Quick-start guide
 
 Running Home Assistant requires that python 3.4 and the package requests are installed. 
+
+If Python 3.4 is not present in your linux distribution repository you will have to build it from source like below:
 ```
 wget https://www.python.org/ftp/python/3.4.1/Python-3.4.1.tar.xz
 tar -Jxf Python-3.4.1.tar.xz
