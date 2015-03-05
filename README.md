@@ -53,9 +53,14 @@ cd home-assistant
 pip3 install -r requirements.txt
 python3 -m homeassistant --open-ui
 ```
-
 The last command will start the Home Assistant server and launch its webinterface. By default Home Assistant looks for the configuration file `config/home-assistant.conf`. A standard configuration file will be written if none exists.
 
 If you are still exploring if you want to use Home Assistant in the first place, you can enable the demo mode by adding the `--demo-mode` argument to the last command.
 
 Please see [the getting started guide](https://home-assistant.io/getting-started/) on how to further configure Home Asssitant.
+
+If sqlite3 is not installed on your machine run
+```
+sudo apt-get install sqlite3
+sudo apt-get install libsqlite3-dev
+```
