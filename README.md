@@ -40,7 +40,7 @@ If Python 3.4 is not present in your linux distribution repository you will have
 wget https://www.python.org/ftp/python/3.4.1/Python-3.4.1.tar.xz
 tar -Jxf Python-3.4.1.tar.xz
 cd Python-3.4.1
-./configure --prefix=/opt/python3.4.1
+./configure --prefix=/opt/python3.4.1 --enable-shared
 make -j 4
 sudo make install
 ```
